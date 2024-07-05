@@ -1,0 +1,49 @@
+/* style.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.helado-1,
+.helado-2,
+.helado-3 {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.helado-1 {
+    width: 150px;
+    height: 150px;
+    background-color: #ff8c00;
+    top: 100px;
+    z-index: 3;
+}
+
+.helado-2 {
+    width: 150px;
+    height: 150px;
+    background-color: #ff69b4;
+    top: 180px;
+    z-index: 2;
+}
+
+.helado-3 {
+    width: 150px;
+    height: 150px;
+    background-color: #7fffd4;
+    top: 260px;
+    z-index: 1;
+}
+
+.cono {
+    width: 0;
+    height: 0;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    border-top: 150px solid #d2691e;
+    position: absolute;
+    top: 340px;
+}
